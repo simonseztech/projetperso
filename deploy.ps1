@@ -1,7 +1,6 @@
 # Variables
 $subscriptionId = "{ secrets.SUBS_ID }"
-$clientId = "ad8692c5-f94e-46e6-848a-ed69aaaf2086"
-#$clientId = "{ secrets.CLIENTS_ID }"
+$clientId = "{ secrets.CLIENTS_ID }"
 $clientSecret = "${ secrets.GITHUB_TOKEN }"
 $tenantId = "${ secrets.TENANT_ID }"
 $resourceGroupName = "rg-projetperso"
